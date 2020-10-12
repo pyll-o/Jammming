@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Jammming/precache-manifest.aa14062be29399e61afc677f6f5d692b.js"
+  "/Jammming/precache-manifest.1601bb098023577d5884c21742711642.js"
 );
 
 self.addEventListener('message', (event) => {
