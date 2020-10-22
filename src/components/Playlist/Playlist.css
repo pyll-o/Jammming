@@ -1,0 +1,64 @@
+.Playlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 37%;
+    max-height: 900px;
+    padding: 2.27rem 1.16rem;
+    background-color: rgba(1, 12, 63, 0.7);
+    box-shadow: 0 4px 2px 2px #000000;
+}
+  
+.Playlist input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;    
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.55rem;
+    color: #fff;
+}
+
+.Playlist-title {
+    display: flex;
+    border-bottom: 1px solid #6f6f6f;
+}
+
+.Playlist-title-button {
+    cursor: pointer;
+    padding: .5rem;
+    transition: color .25s;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.Playlist-title-button-disabled {
+    cursor: default;
+    padding: .5rem;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(265, 265, 265, .1);
+    font-size: 1.3rem;
+}
+
+.Playlist-title-button:hover {
+    color: rgba(265, 265, 265, .5);
+}
+
+.Playlist-tracklist {
+    overflow-y: scroll;
+    width: 100%;
+}
+  
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+  
+@media only screen and (max-width: 1020px) {
+    .Playlist {
+        width: 90%;
+    }
+}
