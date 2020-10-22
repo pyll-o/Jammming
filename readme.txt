@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-A capstone front-end development Codecademy project. This is my second attempt on this with focus on developing the logic from scratch.
+A capstone front-end development Codecademy project. This is my second attempt focused on developing the logic from scratch
 
 The presentational components and are functional and whenever extra logic was needed appropriate containers have been designed as class components. PropTypes have been implemented in all components receiving props. Font Awesome icons have been used to create extra buttons.
 
