@@ -7,7 +7,7 @@ The presentational components and are functional and whenever extra logic was ne
 Specific additional functions and changes implemented:
 
 1. Only components displaying relevant data are displayed.
-2. Log-in and obtaining access token only requested when needed without losing data like search phrase or playlist content (sing sessionStorage). The access token expires at the right time.
+2. Log-in and obtaining access token only requested when needed without losing data like search phrase or playlist content (by using sessionStorage). The access token expires at the right time.
 3. Each track can be previewed if preview-url is available (minimalistic play/pause button). If Spotify api does not supply preview-url, a random sound from free libary (https://bigsoundbank.com) is played and play/pause button is red.
 4. Songs added to a playlist from search results cannot be added again to the same playlist (although they still appear in the search results for clarity) and if a search is done with a playlist songs being displayed, the songs that appear in the playlist are not displayed.
 5. Multiple user playlists functionality was added:
